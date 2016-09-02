@@ -1,0 +1,45 @@
+## SMOOTILLUSIONS MACHINE LEARNING FINAL PROJECT LOGIC
+ 
+## Prep the Data
+ 
+# remove variables with nearly zero variance
+ 
+# remove variables that are almost always NA
+
+# remove variables that don't make intuitive sense for prediction 
+ 
+## Build the model
+
+# instruct train to use 3-fold CV to select optimal tuning parameters
+
+## Problem with Packages loading ( if loaded correctly ## the next 2 lines out )
+ 
+# fit model on ptrain1
+
+# print final model to see tuning parameters it chose
+ 
+##Evaluate the model
+ 
+# use model to predict classe in validation set (ptrain2)
+
+# show confusion matrix to get estimate of out-of-sample error
+
+## Retrain the model
+ 
+# remove variables with nearly zero variance
+
+# remove variables that are almost always NA
+ 
+# remove variables that don't make intuitive sense for prediction (X, user_name, raw_timestamp_part_1, raw_timestamp_part_2, cvtd_timestamp), which happen to be the first five variables
+  
+# re-fit model using full training set (ptrain)
+  
+## Make Predctions
+ 
+# predict on test set
+ 
+# convert predictions to character vector
+ 
+# create function to write predictions to files
+ 
+# create prediction files  
